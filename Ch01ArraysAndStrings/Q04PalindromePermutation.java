@@ -1,9 +1,9 @@
-package ArraysAndStrings;
+package Ch01ArraysAndStrings;
 
 /**
  * Created by nick on 7/19/2015.
  */
-public class PalindromePermutation
+public class Q04PalindromePermutation
 {
     boolean PalPerm(String pal)
     {
@@ -35,7 +35,7 @@ public class PalindromePermutation
     }
 
     public static void main(String[] args) {
-        PalindromePermutation pp = new PalindromePermutation();
+        Ch01ArraysAndStrings.Q04PalindromePermutation pp = new Ch01ArraysAndStrings.Q04PalindromePermutation();
         boolean isPalindrome = pp.PalPerm("ecarrca");
         System.out.println(isPalindrome);
     }

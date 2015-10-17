@@ -1,12 +1,13 @@
-package ArraysAndStrings;
+package Ch01ArraysAndStrings;
 
 /**
  * Created by nick on 8/5/2015.
  */
-public class RotateMatrix2
+public class Q07RotateMatrix
 {
     static int[][] RotMat(int[][] matrix)
     {
+        int[][] rotatedMatrix = new int[4][4];
         int k = -10000;
 
         for (int i = 0; i < matrix.length; i++)
@@ -20,13 +21,13 @@ public class RotateMatrix2
 
             for (int j = 0; j < sub.length; j++)
             {
-                matrix[j][k] = matrix[i][j];
+                rotatedMatrix[j][k] = matrix[i][j];
             }
 
             k--;
         }
 
-        return matrix;
+        return rotatedMatrix;
     }
 
     static void PrintMatrix(int[][] matrix)
@@ -44,7 +45,7 @@ public class RotateMatrix2
     }
 
     public static void main(String[] args) {
-        //ArraysAndStrings.RotateMatrix rM = new ArraysAndStrings.RotateMatrix();
+        //ArraysAndStrings.Q07RotateMatrix rM = new ArraysAndStrings.Q07RotateMatrix();
 
         int[][] myMatrix = new int[4][4];
 

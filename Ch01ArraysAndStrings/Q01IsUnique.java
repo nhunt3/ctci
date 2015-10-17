@@ -1,4 +1,4 @@
-package ArraysAndStrings;
+package Ch01ArraysAndStrings;
 import java.util.Hashtable;
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by nick on 7/13/2015.
  */
-public class IsUnique
+public class Q01IsUnique
 {
     public static void main(String[] args)
     {

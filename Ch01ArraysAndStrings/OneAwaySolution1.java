@@ -1,4 +1,4 @@
-package ArraysAndStrings;//package Q1_05_One_Away;
+package Ch01ArraysAndStrings;
 
 public class OneAwaySolution1
 {

@@ -1,4 +1,4 @@
-package ArraysAndStrings;
+package Ch01ArraysAndStrings;
 
 /**
  * Created by nick on 7/21/2015.

@@ -1,24 +1,32 @@
+//package Ch01ArraysAndStrings;
+
 /**
  * Created by nhunt on 7/29/2015.
  */
-public class StringCompression2
+public class Q06StringCompression
 {
     public String compress(String bS)
     {
         Character prev = ' ';
         Character curr = ' ';
-        Integer count = 0;
+        Integer count = 1;
         String compressed = "";
 
         for (int i = 0; i < bS.length(); i++)
         {
             curr = bS.charAt(i);
-            count ++;
 
-            if (prev != curr && i > 0)
+            if (i > 0)
             {
-                compressed += prev + count.toString();
-                count = 0;
+                if (prev != curr)
+                {
+                    compressed += prev + count.toString();
+                    count = 1;
+                }
+                else
+                {
+                    count ++;
+                }
             }
 
             if (i == bS.length() - 1)
@@ -34,7 +42,7 @@ public class StringCompression2
 
     public static void main(String[] args)
     {
-        StringCompression2 sC = new StringCompression2();
+        Q06StringCompression sC = new Q06StringCompression();
         String compressed = sC.compress("aabcccccaaa");
         System.out.println(compressed);
     }

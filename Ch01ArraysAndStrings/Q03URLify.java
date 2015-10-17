@@ -1,9 +1,9 @@
-package ArraysAndStrings;
+package Ch01ArraysAndStrings;
 
 /**
  * Created by nick on 7/16/2015.
  */
-public class URLify
+public class Q03URLify
 {
     public static void main(String[] args)
     {

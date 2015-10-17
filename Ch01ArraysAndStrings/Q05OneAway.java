@@ -1,9 +1,9 @@
-package ArraysAndStrings;
+package Ch01ArraysAndStrings;
 
 /**
  * Created by nick on 7/21/2015.
  */
-public class OneAway
+public class Q05OneAway
 {
     boolean CheckOneAway(String word, String close)
     {
@@ -46,7 +46,7 @@ public class OneAway
     }
 
     public static void main(String[] args) {
-        OneAway oA = new OneAway();
+        Ch01ArraysAndStrings.Q05OneAway oA = new Ch01ArraysAndStrings.Q05OneAway();
         boolean isOneAway = oA.CheckOneAway("pale", "palk");
         System.out.println(isOneAway);
     }
