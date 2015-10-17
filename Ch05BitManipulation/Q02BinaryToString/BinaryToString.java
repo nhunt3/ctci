@@ -1,4 +1,4 @@
-package BitManipulation.BinaryToString;
+package Ch05BitManipulation.Q02BinaryToString;
 
 /**
  * Created by nick on 10/4/2015.

@@ -1,4 +1,4 @@
-package BitManipulation.NextNumber;
+package Ch05BitManipulation.Q04NextNumber;
 
 /**
  * Created by nick on 10/17/2015.

@@ -1,9 +1,9 @@
-package BitManipulation.Insertion;
+package Ch05BitManipulation.Q01Insertion;
 
 /**
  * Created by nick on 10/4/2015.
  */
-public class Question
+public class Insertion
 {
     public static void main(String[] args)
     {

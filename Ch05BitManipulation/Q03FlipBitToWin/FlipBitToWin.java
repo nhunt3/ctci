@@ -1,4 +1,4 @@
-package BitManipulation.FlipBitToWin;
+package Ch05BitManipulation.Q03FlipBitToWin;
 
 import java.util.ArrayList;
 

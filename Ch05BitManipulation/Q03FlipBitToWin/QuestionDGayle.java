@@ -1,4 +1,4 @@
-package BitManipulation.FlipBitToWin;
+package Ch05BitManipulation.Q03FlipBitToWin;
 
 /**
  * Created by nick on 10/11/2015.
