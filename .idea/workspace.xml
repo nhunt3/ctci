@@ -34,18 +34,7 @@
     <favorites_list name="ctci" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="FirstCommonAncestor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FirstCommonAncestor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,8 +103,8 @@
         <option value="$PROJECT_DIR$/src/Ch04TreesAndGraphs/Node.java" />
         <option value="$PROJECT_DIR$/src/Ch04TreesAndGraphs/FirstCommonAncestor.java" />
         <option value="$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FCAQuestionEGayle.java" />
-        <option value="$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FirstCommonAncestor.java" />
         <option value="$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q08FirstCommonAncestor/Node.java" />
+        <option value="$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FirstCommonAncestor.java" />
       </list>
     </option>
   </component>
@@ -216,6 +205,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nick\IdeaProjects\ctci\src\Ch04TreesAndGraphs" />
+      <recent name="C:\Users\nick\IdeaProjects\ctci\Ch04TreesAndGraphs" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.FirstCommonAncestor">
     <configuration default="false" name="ValidateBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -557,13 +552,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Ch10SortingAndSearching/Q04SortedSearchNoSize/GetLength.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ch10SortingAndSearching/Q04SortedSearchNoSize/Listy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -866,7 +854,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FCAQuestionEGayle.java">
+    <entry file="file://$PROJECT_DIR$/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FCAQuestionEGayle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -874,10 +862,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q08FirstCommonAncestor/Node.java">
+    <entry file="file://$PROJECT_DIR$/Ch04TreesAndGraphs/Q08FirstCommonAncestor/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FirstCommonAncestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
