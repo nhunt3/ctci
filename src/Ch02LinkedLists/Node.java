@@ -133,30 +133,6 @@ public class Node
         }
     }
 
-    void RemoveDupsNoTBSolution()
-    {
-        Node current = this;
-
-        while (current != null)
-        {
-            Node runner = current;
-
-            while (runner.next != null)
-            {
-                if (runner.next.data == current.data)
-                {
-                    runner.next = runner.next.next;
-                }
-                else
-                {
-                    runner = runner.next;
-                }
-            }
-
-            current = current.next;
-        }
-    }
-
     Integer KthToLast(Integer k)
     {
         Node n = this;
@@ -176,23 +152,6 @@ public class Node
         }
 
         return n.data;
-    }
-
-    int PrintKthToLastSol2AppA(Node head, int k)
-    {
-        if (head == null)
-        {
-            return 0;
-        }
-
-        int index = PrintKthToLastSol2AppA(head.next, k) + 1;
-
-        if (index == k)
-        {
-            System.out.println(k + "th to last node is " + head.data);
-        }
-
-        return index;
     }
 
     void DeleteMiddleNode()
@@ -264,34 +223,6 @@ public class Node
         return n;
     }
 
-    Node PartitionSolution2(Node node, int x)
-    {
-        Node head = node;
-        Node tail = node;
-
-        while (node != null)
-        {
-            Node next = node.next;
-
-            if (node.data < x)
-            {
-                node.next = head;
-                head = node;
-            }
-            else
-            {
-                tail.next = node;
-                tail = node;
-            }
-
-            node = next;
-        }
-
-        tail.next = null;
-
-        return head;
-    }
-
     public static void main(String[] args)
     {
         Node n = new Node(1);
@@ -304,18 +235,14 @@ public class Node
         n.AppendToTail(4);
         n.AppendToTail(2);
         n.AppendToTail(5);
-        //n.RemoveDupsSolution1();
         //n.RemoveDups();
         //n = n.DeleteNode(n, 8);
         //n.RemoveDupsNoTB();
-        //n.RemoveDupsNoTBSolution();
         //Integer k = n.KthToLast(3);
         //System.out.println(k);
-        //int k2 = n.PrintKthToLastSol2AppA(n, 3);
         //System.out.println(k2);
         //n.DeleteMiddleNode();
         //System.out.println(mN);
-        //n.DeleteMiddleNodeSolution(myNode);
 
         //n.Partition(5);
 
