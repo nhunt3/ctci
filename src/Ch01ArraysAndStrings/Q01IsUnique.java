@@ -44,8 +44,5 @@ public class Q01IsUnique
 
             intArr[(int) isUnique.charAt(i)] = intArr[(int) isUnique.charAt(i)] + 1;
         }
-
-        // Her solution: bit shifting...
-
     }
 }
