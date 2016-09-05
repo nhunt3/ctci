@@ -7,7 +7,7 @@ public class Q07RotateMatrix
 {
     static int[][] RotMat(int[][] matrix)
     {
-        int[][] rotatedMatrix = new int[4][4];
+        int[][] rotatedMatrix = new int[matrix.length][matrix[0].length];
         int k = -10000;
 
         for (int i = 0; i < matrix.length; i++)

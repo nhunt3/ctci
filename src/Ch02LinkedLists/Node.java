@@ -246,7 +246,7 @@ public class Node
 
         //n.Partition(5);
 
-        n = n.PartitionSolution2(n, 5);
+        //n = n.PartitionSolution2(n, 5);
 
         while(n.next != null)
         {

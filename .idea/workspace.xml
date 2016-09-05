@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f1da771-5aaa-4178-92dd-1fd7e9f3c550" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/CallCenter/Respondant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/CallCenter/CallSwitchboard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/TripleStep.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/TripleStepMemoization.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/RobotInAGrid.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/CallCenter/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/TripleStep.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/CallCenter/Respondant.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/CallCenter/CallSwitchboard.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Ch05BitManipulation/Q04NextNumber/NextNumber.java" afterPath="$PROJECT_DIR$/src/Ch05BitManipulation/Q04NextNumber/NextNumber.java" />
     </list>
     <ignored path="ctci.iws" />
@@ -20,7 +20,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ctci$SortedMergeGayle.coverage" NAME="SortedMergeGayle Coverage Results" MODIFIED="1453676353601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Ch10SortingAndSearching.*</FILTER>
@@ -54,9 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q07PermutationsWithoutDups/Q07PermutationsWithoutDupsIterative.java" />
-        <option value="$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q07PermutationsWithoutDups/Q07PermutationsWithoutDupsRecursive.java" />
-        <option value="$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q07PermutationsWithoutDups/Q07GayleApproach1.java" />
         <option value="$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q07PermutationsWithoutDups/Q07GayleApproach2.java" />
         <option value="$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q07PermutationsWithoutDups/Q07GayleApproach3.java" />
         <option value="$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q08PermutationsWithDups.java" />
@@ -105,14 +101,17 @@
         <option value="$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FCAQuestionEGayle.java" />
         <option value="$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q08FirstCommonAncestor/Node.java" />
         <option value="$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FirstCommonAncestor.java" />
+        <option value="$PROJECT_DIR$/src/Ch01ArraysAndStrings/Q06StringCompression/Q06StringCompression2.java" />
+        <option value="$PROJECT_DIR$/src/Ch02LinkedLists/Node.java" />
+        <option value="$PROJECT_DIR$/src/Ch01ArraysAndStrings/Q07RotateMatrix/Q07RotateMatrix.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -139,8 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -191,9 +188,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ctci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ctci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ch01ArraysAndStrings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Q07RotateMatrix" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ctci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ctci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ch01ArraysAndStrings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,8 +240,8 @@
     <property name="dynamic.classpath" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ctci_Gayle/Ch_07_Object_Oriented_Design" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -212,80 +251,70 @@
       <recent name="C:\Users\nick\IdeaProjects\ctci\Ch04TreesAndGraphs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstCommonAncestor">
-    <configuration default="false" name="ValidateBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Ch04TreesAndGraphs.Q05ValidateBST.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Ch04TreesAndGraphs.Q05ValidateBST.ValidateBST" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ctci" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Successor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Ch04TreesAndGraphs.Q06Successor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Ch04TreesAndGraphs.Q06Successor.Successor" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ctci" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Q07BuildOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Ch04TreesAndGraphs.Q07BuildOrder" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ctci" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Question" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Ch07ObjectOrientedDesign.DeckOfCardsSolution.Question" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ctci" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Q07RotateMatrix">
     <configuration default="false" name="FirstCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Ch04TreesAndGraphs.Q08FirstCommonAncestor.FirstCommonAncestor" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ctci" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Q06StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Q06StringCompression" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ctci" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Q06StringCompression2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Ch01ArraysAndStrings.Q06StringCompression.Q06StringCompression2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ctci" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Q07RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Ch01ArraysAndStrings.Q07RotateMatrix" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ctci" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Q07RotateMatrix2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Ch01ArraysAndStrings.Q07RotateMatrix2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -380,20 +409,62 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ValidateBST" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Successor" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Q07BuildOrder" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Question" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FirstCommonAncestor" />
+      <item index="0" class="java.lang.String" itemvalue="Application.FirstCommonAncestor" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Q06StringCompression" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Q06StringCompression2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Q07RotateMatrix" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Q07RotateMatrix2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FirstCommonAncestor" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Question" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Q07BuildOrder" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Successor" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ValidateBST" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Q07RotateMatrix" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Q07RotateMatrix2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Q06StringCompression" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Q06StringCompression2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FirstCommonAncestor" />
       </list>
     </recent_temporary>
   </component>
@@ -419,17 +490,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20204978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1725" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32440946" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32334384" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27154046" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3023622" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -552,66 +623,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Ch10SortingAndSearching/Q04SortedSearchNoSize/Listy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/String.java" />
-    <entry file="file://$PROJECT_DIR$/src/Ch10SortingAndSearching/Q05SparseSearch/Q05SparseSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="67" column="5" selection-start-line="7" selection-start-column="0" selection-end-line="67" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch10SortingAndSearching/Q03SearchInRotatedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch10SortingAndSearching/Q04SortedSearchNoSize/Q04SortedSearchNoSize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch10SortingAndSearching/Q05SparseSearch/Q05SparseSearch2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch10SortingAndSearching/Q05SparseSearch/SparseSearchGayle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q06TowersOfHanoi/Tower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q06TowersOfHanoi/Q06TowersOfHanoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q05RecursiveMultiply/IterativeMultiply.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -632,41 +643,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q07PermutationsWithoutDups/Q07PermutationsWithoutDupsRecursive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q07PermutationsWithoutDups/Q07GayleApproach1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q07PermutationsWithoutDups/Q07GayleApproach3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q07PermutationsWithoutDups/Q07GayleApproach2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="41" column="5" selection-start-line="9" selection-start-column="0" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q08PermutationsWithDups/Q08PermutationsWithDups.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q07PermutationsWithoutDups/Q07PermutationsWithoutDupsRecursive.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q07PermutationsWithoutDups/Q07GayleApproach1.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q07PermutationsWithoutDups/Q07GayleApproach3.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q07PermutationsWithoutDups/Q07GayleApproach2.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q08PermutationsWithDups/Q08PermutationsWithDups.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q03ListOfDepths/QuestionLOD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -681,34 +662,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q08PermutationsWithDups/Q08Gayle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q02MinimalTree/NodeGayle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q02MinimalTree/QuestionGayle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q01RoutesBetweenNodes/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ch08RecursionAndDynamicProgramming/Q08PermutationsWithDups/Q08Gayle.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q02MinimalTree/NodeGayle.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q02MinimalTree/QuestionGayle.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q01RoutesBetweenNodes/Question.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q02MinimalTree/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -727,13 +684,7 @@
     <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/ValidateBST/ValidateBSTIterative.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/ValidateBST/CheckBalancedPerformant.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/ValidateBST/CheckBalancedSlow.java" />
-    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q01RoutesBetweenNodes/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q01RoutesBetweenNodes/Graph.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q05ValidateBST/ValidateBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -741,13 +692,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q01RoutesBetweenNodes/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q01RoutesBetweenNodes/Node.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch01ArraysAndStrings/OneAwaySolution1.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q05ValidateBST/Node.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -763,13 +708,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q07BuildOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q07BuildOrder.java" />
     <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q06Successor/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -777,100 +716,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/CallCenter/CallSwitchboard.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/CallCenter/CallSwitchboard.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/CallCenter/Employee.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/CallCenter/Respondant.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/Hand.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/Suit.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/Deck.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/Card.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/BlackJackHand.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/BlackJackGameAutomator.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/BlackJackCard.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/Question.java" />
+    <entry file="file://$PROJECT_DIR$/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FCAQuestionEGayle.java" />
+    <entry file="file://$PROJECT_DIR$/Ch04TreesAndGraphs/Q08FirstCommonAncestor/Node.java" />
+    <entry file="file://$PROJECT_DIR$/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FirstCommonAncestor.java" />
+    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FirstCommonAncestor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/CallCenter/Employee.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch01ArraysAndStrings/Q04PalindromePermutation/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/CallCenter/Respondant.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch10SortingAndSearching/QuickSort - from intro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ch03StacksAndQueues/Queue - from intro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/Hand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/Suit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="53" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/BlackJackHand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/BlackJackGameAutomator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/BlackJackCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="53" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch07ObjectOrientedDesign/DeckOfCardsSolution/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FCAQuestionEGayle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch04TreesAndGraphs/Q08FirstCommonAncestor/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch10SortingAndSearching/MergeSort - from intro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FirstCommonAncestor.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch02LinkedLists/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="248" column="10" selection-start-line="248" selection-start-column="10" selection-end-line="248" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ch01ArraysAndStrings/Q06StringCompression/Q06StringCompression2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-377">
+          <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ch01ArraysAndStrings/Q06StringCompression/Q06StringCompression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ch01ArraysAndStrings/Q07RotateMatrix/Q07RotateMatrix2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -878,7 +801,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Ch04TreesAndGraphs/Q08FirstCommonAncestor/FirstCommonAncestor.java">
+    <entry file="file://$PROJECT_DIR$/src/Ch01ArraysAndStrings/Q07RotateMatrix/Q07RotateMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -926,6 +849,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -942,6 +866,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
