@@ -18,7 +18,7 @@ public class Q03SearchInRotatedArray
 
     public static int FindNum(int toFind, int iFirst, int iLast, int[] nums)
     {
-        int iMid = iFirst + (iLast - iFirst) / 2;
+        int iMid = (iFirst + iLast) / 2;
         int vMid = nums[iMid];
         int vFirst = nums[iFirst];
         int vLast = nums[iLast];

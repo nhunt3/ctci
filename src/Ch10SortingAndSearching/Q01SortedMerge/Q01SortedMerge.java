@@ -34,31 +34,20 @@ public class Q01SortedMerge
         int b = B.length - 1;
         int finalA = A.length - 1;
 
-        while (a >= 0 && b >= 0)
+        while (b >= 0)
         {
-            if (A[a] > B[b])
+            if (a >= 0 && A[a] > B[b])
             {
                 A[finalA] = A[a];
-                A[a] = 0;
                 a--;
             }
             else
             {
                 A[finalA] = B[b];
-                B[b] = 0;
                 b--;
             }
 
             finalA--;
-        }
-
-        if (a == 0)
-        {
-            A[finalA] = A[a];
-        }
-        else
-        {
-            A[finalA] = B[b];
         }
 
         return A;

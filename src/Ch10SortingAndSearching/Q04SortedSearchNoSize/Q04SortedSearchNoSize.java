@@ -33,7 +33,7 @@ public class Q04SortedSearchNoSize
             return -1;
         }
 
-        int iMid = low + ((high-low)/2);
+        int iMid = (low + high) / 2;
         int vMid = list.elementAt(iMid);
 
         if (vMid > toFind || vMid == -1)

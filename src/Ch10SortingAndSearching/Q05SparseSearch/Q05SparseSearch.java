@@ -7,9 +7,9 @@ public class Q05SparseSearch
 {
     public static void main(String[] args)
     {
-        String toFind = "foo";
-        String[] strings = {"at", "", "", "", "ball", "", "", "car", "", "", "dad", "", ""};
-        //String[] strings = {"apple", "banana", "carrot", "dad", "elephant", "", "", "", "", "juke", "kangaroo", "lemon"};
+        String toFind = "apple";
+        //String[] strings = {"at", "", "", "", "ball", "", "", "car", "", "", "dad", "", ""};
+        String[] strings = {"apple", "banana", "carrot", "dad", "elephant", "", "", "", "", "juke", "kangaroo", "lemon"};
         System.out.println(FindString(toFind, 0, strings.length - 1, strings));
     }
 
@@ -51,7 +51,7 @@ public class Q05SparseSearch
             }
         }
 
-        tempadd = false;
+        //tempadd = false;
 
         if(strings[tempMid].compareTo(toFind) < 0) // if toFind > strings[iMid]
         {
