@@ -1,5 +1,8 @@
 package Ch04TreesAndGraphs.Q08FirstCommonAncestor;
 
+// I made the assumption in my code that a Node cannot see it's parent
+// and that I'm searching a "binary SEARCH tree" as opposed to just a binary tree
+
 /**
  * Created by nhunt on 5/14/2016.
  */
